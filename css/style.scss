@@ -5,12 +5,12 @@ $white-font: #fff;
 $bg-primary: #FFB400;
 $bg-secondary: #2A2A2A;
 
-$h1-font: 4.0rem;
-$h2-font: 2.5rem;
-$h3-font: 1.5rem;
-$h4-font: 1.0rem;
-$h5-font: 0.80rem;
-$h6-font: 0.67rem;
+$h1-font: 4.0em;
+$h2-font: 2.5em;
+$h3-font: 1.5em;
+$h4-font: 1.0em;
+$h5-font: 0.80em;
+$h6-font: 0.67em;
 
 * {
     margin: 0;
@@ -64,6 +64,7 @@ p {
 
 body {
     background: #fff;
+    overflow-x: hidden;
 }
 
 button {
@@ -130,6 +131,7 @@ button {
 
     .title-front {
         background: $bg-primary;
+        overflow: hidden;
 
         h2 {
             padding: 3rem 0 1.8rem 1.5rem;
@@ -150,3 +152,32 @@ button {
     }
 
 }
+
+//QUOTE SECTION
+
+#quote-section {
+
+    .quote-content {
+        padding: 3% 7%;
+
+        h2 {
+            margin: 3% 0 3% 7%;
+        }
+
+    }
+
+    .quote-button {
+        padding: 3% 0 3% 7%;
+
+        button {
+            border: 5px solid $bg-primary;
+        }
+    }
+
+}
+
+//PROJECT SECTION
+
+// #project-section {
+//     
+// }

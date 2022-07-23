@@ -19,27 +19,27 @@ h5 {
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: 4em;
 }
 
 h2 {
-  font-size: 2.5rem;
+  font-size: 2.5em;
 }
 
 h3 {
-  font-size: 1.5rem;
+  font-size: 1.5em;
 }
 
 h4 {
-  font-size: 1rem;
+  font-size: 1em;
 }
 
 h5 {
-  font-size: 0.8rem;
+  font-size: 0.8em;
 }
 
 h6 {
-  font-size: 0.67rem;
+  font-size: 0.67em;
 }
 
 p {
@@ -50,6 +50,7 @@ p {
 
 body {
   background: #fff;
+  overflow-x: hidden;
 }
 
 button {
@@ -102,6 +103,7 @@ button {
 }
 #title-section .title-front {
   background: #FFB400;
+  overflow: hidden;
 }
 #title-section .title-front h2 {
   padding: 3rem 0 1.8rem 1.5rem;
@@ -115,4 +117,17 @@ button {
 }
 #title-section .title-front .title-front__list {
   padding: 25px;
+}
+
+#quote-section .quote-content {
+  padding: 3% 7%;
+}
+#quote-section .quote-content h2 {
+  margin: 3% 0 3% 7%;
+}
+#quote-section .quote-button {
+  padding: 3% 0 3% 7%;
+}
+#quote-section .quote-button button {
+  border: 5px solid #FFB400;
 }/*# sourceMappingURL=style.css.map */

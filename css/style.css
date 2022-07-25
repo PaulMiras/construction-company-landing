@@ -132,15 +132,25 @@ button {
   border: 5px solid #FFB400;
 }
 
+#project-section {
+  position: relative;
+}
 #project-section .project-content {
   padding: 7% 8% 0;
 }
-#project-section .project-content h2 {
-  margin-bottom: 5%;
+#project-section .project-content hr {
+  width: 7%;
+  height: 5px;
+  color: #FFB400;
+  opacity: 1;
+  margin: 7% 0;
 }
 #project-section .project-content p {
   color: #2A2A2A;
+  padding-right: 50px;
+  margin-bottom: 10%;
 }
-#project-section .project-content hr {
-  border: 10px solid green;
+#project-section .project-data_center {
+  position: absolute;
+  bottom: 0;
 }/*# sourceMappingURL=style.css.map */
